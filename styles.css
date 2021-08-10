@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+h3, p {
+    font-family: 'Kumbh Sans', sans-serif;
+    
+}
+
+h3{
+    padding: 0px 30px 0px 30px;
+}
+
+p{
+    color: gray;
+    padding-top: 5px;
+    Font-size: 18px
+}
+
+.attribution{
+    position: absolute;
+}
+
+.bg-images{
+    display: flex;
+}
+
+.bg-top{
+    position: absolute;
+    left: -100px;
+    bottom: 300px;
+    rotate: 130deg;
+}
+
+.bg-bottom{
+    position: absolute;
+    top: 500px;
+    right: -60px;
+    rotate: 270deg;
+}
+
+.cover{
+    display: flex;
+
+    position: fixed;
+    background-color: #1BA1AD;
+    height: 100%;
+    width: 100%;
+
+}
+
+.square{
+    position: relative;
+    background-color: white;
+    height: 400px;
+    width: auto;
+    margin: auto;
+    z-index: 1000;
+    border-radius: 4%;
+}
+
+.square-img{
+    display: flex;
+    justify-items: center;
+    width: auto;
+    border-radius: 4%;
+    
+}
+
+#square-img{
+    border-radius: 15px 15px 0px 0px;
+}
+
+.info{
+    text-align: center;
+    margin-top: 90px;
+    padding: 10px;
+}
+
+.flp{
+    display: inline-flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    border: 1px 1px 3px 5px solid gray;
+    height: 100px;
+}
+
+.name-age, .london{
+    position: relative;
+    bottom: 20px;
+    padding: 5px;
+}
+
+.london{
+    border-bottom: 1px solid silver;
+    width: auto;
+    padding-bottom: 30px;
+}
+
+#london, span{
+    font-weight: 300;
+    color: gray;
+}
+
+.picture1{
+    position: relative;
+    left: 7px;
+    top: 7px;
+    border-radius: 50%;
+    display: flex;
+    
+}
+
+.picture{
+    z-index: 999;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    bottom: 200px;
+    margin-left: 35%;
+    height: 110px;
+    width: 110px;
+
+}
